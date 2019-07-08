@@ -1,11 +1,12 @@
-body {
+html,body {
     overflow-x: hidden;
     color: white;
+    height: 100%;
 }
 #intro{
     background: url("../images/computers-3.png") no-repeat center center fixed ;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: sticky;
 
@@ -93,6 +94,7 @@ nav a{
 #jumbo{
     width: 100%;
     height: 100%;
+    border-radius:0 ; !important;
 }
 #about-text{
     font-size: 1.2rem;
@@ -108,5 +110,96 @@ nav a{
     font-size: 1.2rem;
 }
 #about-low{
+}
+#about-low div{
+    margin-top: 30px;
+}
+#projects{
+    color: black;
+}
+#projects .cards, #projects .container{
     margin-top: 40px;
+
+}
+.project-heading{
+    margin-top: 60px;
+}
+#team{
+    color: black;
+}
+#contact{
+    color: black;
+}
+.social i{
+    font-size: 3.5em;
+    padding: 3rem;
+}
+.social-card i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-github{
+    color: #211f1f ;
+}
+.fa-instagram{
+    color: #8A49A1;
+}
+.fa-linkedin{
+    color: #0077B5;
+}
+
+section .section-title {
+    text-align: center;
+    color: darkgray;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+footer {
+    background: darkgray !important;
+    padding: 60px 0;
+}
+#footer h5{
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.quick-links li a{
+    color:#ffffff;
+}
+#footer ul.quick-links li{
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+    padding: 3px 0;
+    margin-left:5px;
+    font-weight:700;
+}
+#footer ul.quick-links li a i{
+    margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
 }
