@@ -158,7 +158,7 @@ section .section-title {
     text-transform: uppercase;
 }
 footer {
-    background: darkgray !important;
+    background: black !important;
     padding: 60px 0;
 }
 #footer h5{
