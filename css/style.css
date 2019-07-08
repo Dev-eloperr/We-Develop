@@ -2,6 +2,7 @@ html,body {
     overflow-x: hidden;
     color: white;
     height: 100%;
+    position: relative;
 }
 #intro{
     background: url("../images/computers-3.png") no-repeat center center fixed ;
@@ -15,7 +16,7 @@ html,body {
     text-decoration: none;
     color: #a5a3a8;
 }
-.nav-link:hover, .nav-link.active, .nav-link:focus{
+.nav-link:hover, a.nav-link.active, .nav-link:focus{
     color: #108c24;
 }
 
@@ -38,19 +39,16 @@ nav a{
     color: #ffffff;
     margin-left: 10px;
 }
-.btn-outline-dark{
+.learnmore-btn{
     color: #b3b1b7; !important;
 }
 #intro-btn{
     text-align: center;
     margin-top: 130px;
 }
-#intro-btn button{
+#intro-btn button, #intro-btn a{
     margin: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px 50px;
     font-size: 1.6rem;
 }
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
@@ -117,8 +115,8 @@ nav a{
 #projects{
     color: black;
 }
-#projects .cards, #projects .container{
-    margin-top: 40px;
+#projects .container{
+    //margin-top: 40px;
 
 }
 .project-heading{
