@@ -5,7 +5,7 @@ body {
 #intro{
     background: url("../images/computers-3.png") no-repeat center center fixed ;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: sticky;
 
@@ -92,7 +92,7 @@ nav a{
 
 #jumbo{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 #about-text{
     font-size: 1.2rem;
@@ -100,4 +100,13 @@ nav a{
 .about-icon{
     font-size: 48px;
     color: white;
+}
+.about-table td{
+    padding: 4px 5px 4px 5px ;
+}
+.about-lower-head{
+    font-size: 1.2rem;
+}
+#about-low{
+    margin-top: 40px;
 }
