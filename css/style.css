@@ -1,9 +1,11 @@
 html,body {
     overflow-x: hidden;
     color: white;
-
+    font-size: 1em;
     position: relative;
 }
+
+
 #intro{
     background: url("../images/computers-3.png") no-repeat center center fixed ;
     background-size: cover;
@@ -65,14 +67,17 @@ nav a{
     font-size: 1.2rem;
 }
 .about-icon{
-    font-size: 48px;
+    font-size: 2em;
     color: white;
+}
+.about-table {
+    margin-top: 30px;
 }
 .about-table td{
     padding: 4px 5px 4px 5px ;
 }
 .about-lower-head{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 #about-low div{
@@ -159,11 +164,43 @@ footer {
     font-weight: 700;
 }
 
-@media (max-width:767px){
+@media screen and (max-width: 767px) {
     #footer h5 {
         padding-left: 0;
         border-left: transparent;
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
+    .about-lower-head{
+        font-size: 1.1em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+}
+
+/* md */
+@media screen and (max-width: 992px) {
+    .display-3{
+        font-size: 3.5rem; !important;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    #intro-btn{
+        margin-top: 50px;
+    }
+    #arrow{
+        margin: 30px;
+    }
+    #about-text{
+        font-size: 1em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
 }
