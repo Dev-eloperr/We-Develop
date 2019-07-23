@@ -234,3 +234,6 @@ footer {
 @media screen and (min-width: 1200px) {
 
 }
+a i:hover{
+    text-shadow: 1px 1px darkgray;
+}
