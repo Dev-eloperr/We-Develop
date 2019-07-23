@@ -17,7 +17,7 @@
 <body data-spy="scroll" data-target="#navbarNavDropdown" data-offset="20">
     <header id="home">
         <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="responsive-navbar">
-
+            <div class="container">
                 <a href="#" class="navbar-brand"><img id="logo" src="images/logo-beta.png" height="40" alt="logo-WeDevelop">
                     <span class="brand-name navbar-text">WeDevelop</span></a>
                 <button class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     </ul>
+                </div>
             </div>
         </nav>
 
@@ -49,8 +50,8 @@
             <section class=" intro-type" id="parallax-one">
                 <div class="containers">
                     <div class="row">
-                        <div class="col-md-12">
-                            <a class="ct-btn-scroll ct-js-btn-scroll" href="#about"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                        <div class="col-md-12 align-items-center" align="center">
+                            <a id="arrow" class="align-items-center"  href="#about"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
                         </div>
                     </div>
                 </div>
@@ -66,71 +67,104 @@
                 <hr class="col-sm-10">
                 <p id="about-text" class=" row col-sm-12 col-md-10">Whether you need a new plugin, theme or website developed from scratch, a customization to an existing component or on-going maintenance work, we have experts to cover it all. See examples of projects* with varying degrees of complexity, urgency and scope.</p>
                 <br>
-            <div class="row text-center" id="about-low">
+            <div class="row" id="about-low">
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="about-icon fas fa-code"></div><span class="about-lower-head">PERSONAL/COMPANY WEBSITE BUILD</span>
-                    <table class="about-table d-inline-block">
+                    <table class="about-table text-center">
                         <tr>
+                            <th>
+                                <div class="about-icon fas fa-code"></div>
+                            </th>
+                            <th colspan="2">
+                                <span class="about-lower-head">PERSONAL PORTFOLIO/ LANDING PAGE</span>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td></td>
                             <th>Complexity</th>
                             <td>Low</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Urgency</th>
                             <td>Low</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Scope</th>
                             <td>Low</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Cost</th>
-                            <td>approx. Rs3000</td>
+                            <td>approx. Rs5000</td>
                         </tr>
 
                     </table>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="about-icon fas fa-code"></div><span class="about-lower-head">PERSONAL/COMPANY WEBSITE BUILD</span>
-                    <table class="about-table d-inline-block">
+                    <table class="about-table text-center">
                         <tr>
+                            <th>
+                                <span class="about-icon fas fa-code"></span>
+                            </th>
+                            <th colspan="2">
+                                <span class="about-lower-head">MULTI-PAGE BUSINESS WEBSITE</span>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td></td>
                             <th>Complexity</th>
-                            <td>Low</td>
+                            <td>Med</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Urgency</th>
-                            <td>Low</td>
+                            <td>Med</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Scope</th>
                             <td>Low</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Cost</th>
-                            <td>approx. Rs3000</td>
+                            <td>approx. Rs10000</td>
                         </tr>
 
                     </table>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="about-icon fas fa-code"></div><span class="about-lower-head">PERSONAL/COMPANY WEBSITE BUILD</span>
-                    <table class="about-table d-inline-block">
+
+                    <table class="about-table text-center">
                         <tr>
+                            <th>
+                                <span class="about-icon fas fa-code"></span>
+                            </th>
+                            <th colspan="2">
+                                <span class="about-lower-head">E-COMMERCE WEBSITE</span></th>
+                        </tr>
+                        <tr>
+                            <td></td>
                             <th>Complexity</th>
-                            <td>Low</td>
+                            <td>High</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Urgency</th>
-                            <td>Low</td>
+                            <td>Med</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Scope</th>
-                            <td>Low</td>
+                            <td>High</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <th>Cost</th>
-                            <td>approx. Rs3000</td>
+                            <td>approx. Rs25000</td>
                         </tr>
                     </table>
                 </div>
@@ -251,7 +285,10 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <img src="images/logo-beta.png" height="40" alt="logo-WeDevelop">
                     <span style="font-size: 1.2rem" class=" ml-2 font-weight-bold">WeDevelop</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt distinctio doloremque esse exacilis fuga odit qui sit vitae?</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Founded by Dev Kathuria & <br>Shobhit Tiwari</p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <h5>Quick links</h5>
@@ -265,17 +302,18 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <h5>Contact Us</h5>
-                    email@email.com
+                    <a href="mailto:devkath71@gmail.com">Email Us</a>
                     <br>
-                    number
                     <br>
-                    address
+                    <address>
+                        Shiv Nadar University,<br>
+                        Dadri, UP - 201310
+                    </address>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                    <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
-                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+                    <p class="h6">&copy All right Reversed.</p>
                 </div>
                 <hr>
             </div>

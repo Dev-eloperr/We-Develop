@@ -1,7 +1,7 @@
 html,body {
     overflow-x: hidden;
     color: white;
-    height: 100%;
+
     position: relative;
 }
 #intro{
@@ -51,42 +51,9 @@ nav a{
     padding: 3px 50px;
     font-size: 1.6rem;
 }
-.separator-type, .title-type, .intro-type, .content-type .intro-type p {
-    position: relative;
-}
+
 .intro-type .containers {
     padding: 107px 0px 102px 0px !important;
-}
-
-.parallax {
-    background-attachment: inherit !important;
-}
-.parallax {
-    background-attachment: inherit !important;
-}
-.parallax {
-    background-attachment: inherit !important;
-    background-repeat: repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    width: 100%;
-    z-index: -10;
-}
-.ct-btn-scroll {
-    width: 49px;
-    height: 49px;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding-top: 500px;
-    z-index: 9;
-    border-radius: 50%;
-    -webkit-transition: background-color 0.25s ease-in-out;
-    transition: background-color 0.25s ease-in-out;
 }
 
 #jumbo{
@@ -107,10 +74,9 @@ nav a{
 .about-lower-head{
     font-size: 1.2rem;
 }
-#about-low{
-}
+
 #about-low div{
-    margin-top: 30px;
+    //margin-top: 30px;
 }
 #projects{
     color: black;
@@ -157,7 +123,7 @@ section .section-title {
 }
 footer {
     background: black !important;
-    padding: 60px 0;
+    padding: 60px 0 20px 0;
 }
 #footer h5{
     padding-left: 10px;
