@@ -29,7 +29,7 @@ form.addEventListener('submit',function (e) {
     form.email.value='';
     form.desc.value='';
 
-    window.location='thanks.html';
+    // window.location='thanks.html';
 
 
 });
