@@ -159,6 +159,7 @@ section .section-title {
 footer {
     background: black !important;
     padding: 60px 0 20px 0;
+    margin-top: 2rem;
 }
 #footer h5{
     padding-left: 10px;
