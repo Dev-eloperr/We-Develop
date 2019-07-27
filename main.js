@@ -20,7 +20,7 @@ $(document).ready(function() {
             form1.name.value='';
             form1.email.value='';
             form1.desc.value='';
-            
+
         });
     }
     else console.log(form1);
