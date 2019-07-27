@@ -29,7 +29,7 @@ $(document).ready(function() {
     //contact us form
     const form2 = document.getElementById("formcontactus");
     if(form2){
-        form1.addEventListener('submit',function (e) {
+        form2.addEventListener('submit',function (e) {
             e.preventDefault();
             db.collection('contactus').add({
                 name:form2.name.value,
