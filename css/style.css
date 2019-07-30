@@ -238,3 +238,6 @@ footer {
 a i:hover{
     text-shadow: 1px 1px darkgray;
 }
+#arr-img{
+    fill: #ffffff;
+}
