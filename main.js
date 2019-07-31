@@ -1,10 +1,11 @@
+//bouncy arrow
+$("#arr-img").hover(function(){
+    $(this).toggleClass("bounce2");
+    $(this).toggleClass("bounce");
+});
+//bouncy arrow ends
+
 $(document).ready(function() {
-    //bouncy arrow
-    $("#arr-img").hover(function(){
-        $(this).toggleClass("bounce2");
-        $(this).toggleClass("bounce");
-    });
-    //bouncy arrow ends
 
 
     //form submit

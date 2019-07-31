@@ -16,14 +16,17 @@ html,body {
 }
 .nav-link{
     text-decoration: none;
-    color: #a5a3a8;
+    color:white;
 }
 .nav-link:hover, a.nav-link.active, .nav-link:focus{
-    color: #108c24;
+    color: #0dc61f;
+    font-size: 1.5em;
+    transition-duration: 0.05s;
+    margin-top: -6px;
 }
 
 nav a{
-    font-size: 1.1em !important;
+    font-size: 1.1em;
     font-weight: 500;
 
 }
@@ -35,7 +38,9 @@ nav a{
 .navbar{
     letter-spacing: 0.1rem;
     background: rgba(0,0,0,0); !important;
-    opacity: 0.6;
+    opacity: 0.8;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 .brand-name{
     color: #ffffff;
@@ -59,7 +64,7 @@ nav a{
 }
 
 .bounce {
-    animation: bounce 2s 2s;
+    animation: bounce 2s 0s;
 }
 .bounce2{
     animation: bounce 2s infinite;
