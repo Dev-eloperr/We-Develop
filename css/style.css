@@ -20,7 +20,7 @@ html,body {
 }
 .nav-link:hover, a.nav-link.active, .nav-link:focus{
     color: #0dc61f;
-    font-size: 1.5em;
+    font-size: 1.2em;
     transition-duration: 0.05s;
     margin-top: -6px;
 }
